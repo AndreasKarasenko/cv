@@ -1,4 +1,4 @@
-\documentclass[10pt, letterpaper]{article}
+\documentclass[10pt, a4paper]{article}
 
 % Packages:
 \usepackage[
@@ -39,7 +39,7 @@
 \makeatletter
 \let\ps@customFooterStyle\ps@plain % Copy the plain style to customFooterStyle
 \patchcmd{\ps@customFooterStyle}{\thepage}{
-    \color{gray}\textit{\small Andreas Karasenko - Page \thepage{} of \pageref*{LastPage}}
+    \color{gray}\textit{\small Andreas Karasenko - Seite \thepage{} von \pageref*{LastPage}}
 }{}{} % replace number by desired string
 \makeatother
 \pagestyle{customFooterStyle}
@@ -124,7 +124,6 @@
 \pdfgentounicode=1
 
 \begin{document}
-    \placelastupdatedtext
     \begin{header}
         \fontsize{30 pt}{30 pt}
         \textbf{Andreas Karasenko}
@@ -138,8 +137,6 @@
         \hspace*{0.5 cm}
         \mbox{{\small\faMapMarker*}\hspace*{0.13cm}Bayreuth}
         \hspace*{0.5 cm}
-        \mbox{\hrefWithoutArrow{https://yourwebsite.com/}{{\small\faLink}\hspace*{0.13cm}yourwebsite.com}}
-        \hspace*{0.5 cm}
         \mbox{\hrefWithoutArrow{https://linkedin.com/in/andreas-karasenko-57163a212/}{{\small\faLinkedinIn}\hspace*{0.13cm}andreas-karasenko-57163a212/}}
         \hspace*{0.5 cm}
         \mbox{\hrefWithoutArrow{https://github.com/AndreasKarasenko}{{\small\faGithub}\hspace*{0.13cm}AndreasKarasenko}}
@@ -149,19 +146,28 @@
     \vspace{0.3 cm}
 
 
-    \section{Summary}
+    \section{Ausbildung}
 
-        \begingroup\leftskip=0.2 cm
-        \advance\csname @rightskip\endcsname 0.2 cm
-        \advance\rightskip 0.2 cm
+        \begin{tabularx}{
+            \textwidth-0.4 cm-0.13cm
+        }{
+            L{0.85cm}
+            K{0.2 cm}
+            R{4.1 cm}
+        }
+            \textbf{PhD}
+            &
+            \textbf{Universität Bayreuth}, Betriebswirtschaftslehre
 
-        This is an example resume to showcase the capabilities of the open-source LaTeX CV generator, \href{https://github.com/sinaatalay/rendercv}{RenderCV}. A substantial part of the content is taken from \href{https://www.careercup.com/resume}{here}, where a \textit{clean and tidy CV} pattern is proposed by \textbf{Gayle L. McDowell}.
-        \par\endgroup
+            \vspace{0.10 cm}
 
+            &
+            
 
-    
-    \section{Education}
+            Okt. 2021 bis Nov. 2025
+        \end{tabularx}
 
+        \vspace{0.2 cm}
         \begin{tabularx}{
             \textwidth-0.4 cm-0.13cm
         }{
@@ -179,7 +185,9 @@
                 \item \textbf{Coursework:} Operations Research, Datenbanken und Informationssysteme, Deep Learning, Data Mining im Marketing
             \end{highlights}
             &
-            Oct. 2018 to Sept. 2021
+            
+
+            Okt. 2018 bis Sept. 2021
         \end{tabularx}
 
         \vspace{0.2 cm}
@@ -194,14 +202,17 @@
             &
             \textbf{Universität Bayreuth}, Betriebswirtschaftslehre
 
+            \vspace{0.10 cm}
 
             &
-            Oct. 2014 to Sept. 2018
+            
+
+            Okt. 2014 bis Sept. 2018
         \end{tabularx}
 
 
     
-    \section{Experience}
+    \section{Arbeitserfahrung}
 
         \begin{tabularx}{
             \textwidth-0.4 cm-0.13cm
@@ -209,21 +220,66 @@
             K{0.2 cm}
             R{4.1 cm}
         }
-            \textbf{}
+            \textbf{Lehrstuhl für Marketing und Innovation}, Wissenschaftlicher Mitarbeiter
 
             \vspace{0.10 cm}
 
             \begin{highlights}
-                \item Reduced time to render the user's buddy list by 75\% by implementing a prediction algorithm.
-                \item Implemented iChat integration with OS X Spotlight Search by creating a tool that extracts metadata from saved chat transcripts and provides metadata to a system-wide search database.
-                \item Redesigned chat file format and implemented backward compatibility for search.
+                \item Durchführung von Industrieprojekten an der Schnittstelle zwischen Marketing, KI und Programmierung.
+                \item Anfertigen von wissenschaftlichen Artikeln und Konferenzbeiträgen.
+                \item Betreuen von Abschlussarbeiten.
             \end{highlights}
             &
             Bayreuth, Deutschland
 
-        Oct. 2021 to present
+            Okt. 2021 bis Heute
+        \end{tabularx}
 
-        2 years 6 months
+        \vspace{0.2 cm}
+        \begin{tabularx}{
+            \textwidth-0.4 cm-0.13cm
+        }{
+            K{0.2 cm}
+            R{4.1 cm}
+        }
+            \textbf{Lehrstuhl für Serious Games}, Hilfswissenschaftler
+
+            \vspace{0.10 cm}
+
+            \begin{highlights}
+                \item Korrektur von Übungen und Klausuren
+                \item Erstellen von Bash/Python Skripten zur Automatisierung von Punktevergabe und Plagiatserkennung
+            \end{highlights}
+            &
+            Bayreuth, Deutschland
+
+            Okt. 2019 bis Sept. 2021
+        \end{tabularx}
+
+
+    
+    \section{Industrieprojekte}
+
+        \begin{tabularx}{
+            \textwidth-0.4 cm-0.13cm
+        }{
+            K{0.2 cm}
+            R{4.1 cm}
+        }
+            \textbf{BioTexFuture (Adidas)}
+
+            \vspace{0.10 cm}
+
+            \begin{highlights}
+                \item Koordination und Projektmanagement von Qualitativen / Quantitativen Analysen im Bereich von Konsumentenverhalten und -präferenzen.
+                \item Fullstack-Entwicklung einer Kollaborativen Webseite als zentrale Sammlung aller Studien und Experimente.
+                \item Integration in ein Content Management System  und Planung eines Chat-Bots.
+                \item Verwendete Technologien: Django, Wagtail, PostgreSQL, Docker, Git, CI/CD.
+            \end{highlights}
+            &
+            
+
+            Okt. 2021 bis Nov. 2025
         \end{tabularx}
 
 
@@ -234,20 +290,20 @@
             K{0.2 cm}
             R{4.1 cm}
         }
-            \textbf{}
+            \textbf{Process Mining im E-Commerce (BF/M-Bayreuth)}
 
             \vspace{0.10 cm}
 
             \begin{highlights}
-                \item Promoted to Lead Student Ambassador in the Fall of 2004, supervised 10 - 15 Student Ambassadors.
-                \item Created and taught a computer science course, CSE 099: Software Design and Development.
+                \item Planung und Durchführung von Forschungsprojekten zum Thema Process-Mining im E-Commerce.
+                \item Planung und Durchführung themenspezifischer Veranstaltungen.
+                \item Identifizierung von Nutzungspotentialen und praktische Anwendung auf Customer Journey Daten (Server Logs der Produktwebseite).
+                \item Verwendete Technologien: BupaR, PM4PY.
             \end{highlights}
             &
-            WA, USA
+            
 
-        Sept. 2003 to Apr. 2005
-
-        1 year 7 months
+            Apr. 2023 bis Feb. 2024
         \end{tabularx}
 
 
@@ -258,68 +314,26 @@
             K{0.2 cm}
             R{4.1 cm}
         }
-            \textbf{}
+            \textbf{Marketing Intelligence für KMU (ESF-VHB)}
 
             \vspace{0.10 cm}
 
             \begin{highlights}
-                \item Implemented a user interface for the VS open file switcher (ctrl-tab) and extended it to tool windows.
-                \item Created a service to provide gradient across VS and VS add-ins. Optimized service via caching.
-                \item Programmer Productivity Research Center (Summers 2001, 2002)
-                \item Built app to compute the similarity of all methods in a code base, reduced time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$. 
-                \item Created a test case generation tool that creates random XML docs from XML Schema.
+                \item Identifizierung von Nutzungspotentialen für Kundenkarten(daten) in Baumärkten.
+                \item Durchführung von RFM-/ und Co-Occurence Analysen.
+                \item Entwicklung und offline Evaluation eines Empfehlungssystems.
+                \item Verwendete Technologien: R, Tensorflow, Keras, Pandas, Matplotlib.
             \end{highlights}
             &
-            PA, USA
+            
 
-        Oct. 2001 to May 2005
-
-        3 years 7 months
-        \end{tabularx}
-
-
-        \vspace{0.2 cm}
-        \begin{tabularx}{
-            \textwidth-0.4 cm-0.13cm
-        }{
-            K{0.2 cm}
-            R{4.1 cm}
-        }
-            \textbf{}
-
-            \vspace{0.10 cm}
-
-            \begin{highlights}
-                \item Promoted to Lead Student Ambassador in the Fall of 2004, supervised 10 - 15 Student Ambassadors.
-            \end{highlights}
-            &
-            WA, USA
-
-        June 2003 to Aug. 2003
-
-        2 months
+            Okt. 2021 bis Dez. 2022
         \end{tabularx}
 
 
 
     
-    \section{Publications}
-
-        \begin{tabularx}{\textwidth-0.4 cm-0.13cm}{K{0.2 cm} R{4.1 cm}}
-            \textbf{Magneto-Thermal Thin Shell Approximation for 3D Finite Element Analysis of No-Insulation Coils}
-
-            \vspace{0.10 cm}
-
-            \mbox{Albert Smith}, \mbox{Andreas Karasenko}, \mbox{Jane Derry}, \mbox{Harry Tom}, \mbox{Anotherfirstname Andsurname}
-            \vspace{0.10 cm}
-
-        \href{https://doi.org/10.1109/TASC.2023.3340648}{10.1109/TASC.2023.3340648}&
-            Jan. 2004
-        \end{tabularx}
-
-
-    
-    \section{Projects}
+    \section{Paperprojekte}
 
         \begin{tabularx}{
             \textwidth-0.4 cm-0.13cm
@@ -327,16 +341,19 @@
             K{0.2 cm}
             R{4.1 cm}
         }
-            \textbf{Multi-User Drawing Tool}
+            \textbf{Sentiment in Marketing (Karasenko)}
 
             \vspace{0.10 cm}
 
             \begin{highlights}
-                \item Developed an electronic classroom where multiple users can view and simultaneously draw on a "chalkboard" with each person's edits synchronized.
-                \item Used C++ and MFC.
+                \item Method Paper zu Sentiment-Analyse im Marketing (Anwendungen, Modellierung, Evaluation, Interpretation).
+                \item Erstellen von exemplarischen Quellcodes für alle notwendigen Schritte.
+                \item To be submitted (Marketing ZFP)
             \end{highlights}
             &
-            Jan. 2004
+            
+
+            2024
         \end{tabularx}
 
 
@@ -347,16 +364,19 @@
             K{0.2 cm}
             R{4.1 cm}
         }
-            \textbf{Synchronized Calendar}
+            \textbf{Measuring technology acceptance over time by online customer reviews based transfer learning (Baier, Karasenko, Rese)}
 
             \vspace{0.10 cm}
 
             \begin{highlights}
-                \item Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users.
-                \item Used C\#.NET, SQL, and XML.
+                \item Vergleich zwischen transfer learning und einer herkömmlichen Umfrage mit einem Strukturgleichungsmodel.
+                \item Proof of Concept für den automatisierten Einsatz von KI zur Technologieakzeptanzmessung.
+                \item To be submitted (Journal of Retailing and Consumer Services)
             \end{highlights}
             &
-            2003 to 2004
+            
+
+            2024
         \end{tabularx}
 
 
@@ -367,28 +387,42 @@
             K{0.2 cm}
             R{4.1 cm}
         }
-            \textbf{Operating System}
+            \textbf{Beyond Sentiment (Karasenko)}
 
             \vspace{0.10 cm}
 
             \begin{highlights}
-                \item Developed a UNIX-style OS with a scheduler, file system, text editor, and calculator.
-                \item Used C.
+                \item Empirische Evaluation zum Einsatz von KI für die Technologieakzeptanzmessung auf Basis von Online-Reviews.
+                \item Vergleich von 18 Natural Language Processing Modellen. Darunter BERT, GPT-3, RoBERTa, CNN, RF.
+                \item Im Review (Electronic Commerce Research and Applications).
             \end{highlights}
             &
-            Jan. 2002
+            
+
+            Dez. 2023
         \end{tabularx}
 
 
 
     
-    \section{Additional Experience And Awards}
+    \section{Zusätzliche Erfahrungen}
 
         \begingroup\leftskip=0.2 cm
         \advance\csname @rightskip\endcsname 0.2 cm
         \advance\rightskip 0.2 cm
 
-        \textbf{Instructor (2003 - 2005):} Taught two full-credit Computer Science courses.
+        \textbf{Bayreuth AI Association (Mai 2023 - Heute):} Bi-Weekly Meetings in denen aktuelle Entwicklungen in KI, Tools und Libraries vorgestellt, diskutiert und in kurzen Demos präsentiert werden.
+        \par\endgroup
+
+
+    
+    \section{Technologien}
+
+        \begingroup\leftskip=0.2 cm
+        \advance\csname @rightskip\endcsname 0.2 cm
+        \advance\rightskip 0.2 cm
+
+        \textbf{Programmiersprachen:} Python, R, Javascript/HTML/CSS, Bash
         \par\endgroup
 
         \vspace{0.2 cm}
@@ -396,18 +430,7 @@
         \advance\csname @rightskip\endcsname 0.2 cm
         \advance\rightskip 0.2 cm
 
-        \textbf{Third Prize, Senior Design Projects:} Awarded 3rd prize for a synchronized calendar project out of 100 projects.
-        \par\endgroup
-
-
-    
-    \section{Technologies}
-
-        \begingroup\leftskip=0.2 cm
-        \advance\csname @rightskip\endcsname 0.2 cm
-        \advance\rightskip 0.2 cm
-
-        \textbf{Languages:} C++, C, Java, Objective-C, C\#.NET, SQL, JavaScript
+        \textbf{Frameworks und Libraries:} TensorFlow, Keras, Huggingface, Pandas, NumPy, Matplotlib, Scikit-learn, Django, Wagtail
         \par\endgroup
 
         \vspace{0.2 cm}
@@ -415,7 +438,7 @@
         \advance\csname @rightskip\endcsname 0.2 cm
         \advance\rightskip 0.2 cm
 
-        \textbf{Software:} Visual Studio, Microsoft SQL Server, Eclipse, XCode, Interface Builder
+        \textbf{Werkzeuge:} Git, Docker, Linux, GitHub Actions
         \par\endgroup
 
 

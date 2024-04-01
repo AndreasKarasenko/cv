@@ -3,16 +3,16 @@
 - Phone: +49 176 87742456
 - Email: [andreas.karasenko@googlemail.com](mailto:andreas.karasenko@googlemail.com)
 - Location: Bayreuth
-- Website: [yourwebsite.com](https://yourwebsite.com/)
 - LinkedIn: [andreas-karasenko-57163a212/](https://linkedin.com/in/andreas-karasenko-57163a212/)
 - GitHub: [AndreasKarasenko](https://github.com/AndreasKarasenko)
 
 
-# Summary
+# Ausbildung
 
-This is an example resume to showcase the capabilities of the open-source LaTeX CV generator, [RenderCV](https://github.com/sinaatalay/rendercv). A substantial part of the content is taken from [here](https://www.careercup.com/resume), where a *clean and tidy CV* pattern is proposed by **Gayle L. McDowell**.
+## Universität Bayreuth, PhD in Betriebswirtschaftslehre
 
-# Education
+- Oct. 2021 to Nov. 2025 
+
 
 ## Universität Bayreuth, MS in Betriebswirtschaftslehre
 
@@ -25,67 +25,71 @@ This is an example resume to showcase the capabilities of the open-source LaTeX 
 - Oct. 2014 to Sept. 2018 
 
 
-# Experience
+# Arbeitserfahrung
 
 ## Lehrstuhl für Marketing und Innovation, Wissenschaftlicher Mitarbeiter
 
 - Oct. 2021 to present 
 - Bayreuth, Deutschland 
-- Reduced time to render the user's buddy list by 75% by implementing a prediction algorithm.
-- Implemented iChat integration with OS X Spotlight Search by creating a tool that extracts metadata from saved chat transcripts and provides metadata to a system-wide search database.
-- Redesigned chat file format and implemented backward compatibility for search.
+- Durchführung von Industrieprojekten an der Schnittstelle zwischen Marketing, KI und Programmierung.
+- Anfertigen von wissenschaftlichen Artikeln und Konferenzbeiträgen.
+- Betreuen von Abschlussarbeiten.
 
-## Microsoft Corporation, Lead Student Ambassador
+## Lehrstuhl für Serious Games, Hilfswissenschaftler
 
-- Sept. 2003 to Apr. 2005 
-- WA, USA 
-- Promoted to Lead Student Ambassador in the Fall of 2004, supervised 10 - 15 Student Ambassadors.
-- Created and taught a computer science course, CSE 099: Software Design and Development.
+- Oct. 2019 to Sept. 2021 
+- Bayreuth, Deutschland 
+- Korrektur von Übungen und Klausuren
+- Erstellen von Bash/Python Skripten zur Automatisierung von Punktevergabe und Plagiatserkennung
 
-## University of Pennsylvania, Head Teaching Assistant
+# Industrieprojekte
 
-- Oct. 2001 to May 2005 
-- PA, USA 
-- Implemented a user interface for the VS open file switcher (ctrl-tab) and extended it to tool windows.
-- Created a service to provide gradient across VS and VS add-ins. Optimized service via caching.
-- Programmer Productivity Research Center (Summers 2001, 2002)
-- Built app to compute the similarity of all methods in a code base, reduced time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$. 
-- Created a test case generation tool that creates random XML docs from XML Schema.
+## BioTexFuture (Adidas)
 
-## Microsoft Corporation, Software Design Engineer, Intern
+- Oct. 2021 to Nov. 2025 - Koordination und Projektmanagement von Qualitativen / Quantitativen Analysen im Bereich von Konsumentenverhalten und -präferenzen.
+- Fullstack-Entwicklung einer Kollaborativen Webseite als zentrale Sammlung aller Studien und Experimente.
+- Integration in ein Content Management System  und Planung eines Chat-Bots.
+- Verwendete Technologien: Django, Wagtail, PostgreSQL, Docker, Git, CI/CD.
 
-- June 2003 to Aug. 2003 
-- WA, USA 
-- Promoted to Lead Student Ambassador in the Fall of 2004, supervised 10 - 15 Student Ambassadors.
+## Process Mining im E-Commerce (BF/M-Bayreuth)
 
-# Publications
+- Apr. 2023 to Feb. 2024 - Planung und Durchführung von Forschungsprojekten zum Thema Process-Mining im E-Commerce.
+- Planung und Durchführung themenspezifischer Veranstaltungen.
+- Identifizierung von Nutzungspotentialen und praktische Anwendung auf Customer Journey Daten (Server Logs der Produktwebseite).
+- Verwendete Technologien: BupaR, PM4PY.
 
-## Magneto-Thermal Thin Shell Approximation for 3D Finite Element Analysis of No-Insulation Coils ([10.1109/TASC.2023.3340648](https://doi.org/10.1109/TASC.2023.3340648))
-- Jan. 2004
-- Albert Smith, Andreas Karasenko, Jane Derry, Harry Tom, Anotherfirstname Andsurname
+## Marketing Intelligence für KMU (ESF-VHB)
 
-# Projects
+- Oct. 2021 to Dec. 2022 - Identifizierung von Nutzungspotentialen für Kundenkarten(daten) in Baumärkten.
+- Durchführung von RFM-/ und Co-Occurence Analysen.
+- Entwicklung und offline Evaluation eines Empfehlungssystems.
+- Verwendete Technologien: R, Tensorflow, Keras, Pandas, Matplotlib.
 
-## Multi-User Drawing Tool
+# Paperprojekte
 
-- Jan. 2004 - Developed an electronic classroom where multiple users can view and simultaneously draw on a "chalkboard" with each person's edits synchronized.
-- Used C++ and MFC.
+## Sentiment in Marketing (Karasenko)
 
-## Synchronized Calendar
+- June 2024 - Method Paper zu Sentiment-Analyse im Marketing (Anwendungen, Modellierung, Evaluation, Interpretation).
+- Erstellen von exemplarischen Quellcodes für alle notwendigen Schritte.
+- To be submitted (Marketing ZFP)
 
-- 2003 to 2004 - Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users.
-- Used C#.NET, SQL, and XML.
+## Measuring technology acceptance over time by online customer reviews based transfer learning (Baier, Karasenko, Rese)
 
-## Operating System
+- June 2024 - Vergleich zwischen transfer learning und einer herkömmlichen Umfrage mit einem Strukturgleichungsmodel.
+- Proof of Concept für den automatisierten Einsatz von KI zur Technologieakzeptanzmessung.
+- To be submitted (Journal of Retailing and Consumer Services)
 
-- Jan. 2002 - Developed a UNIX-style OS with a scheduler, file system, text editor, and calculator.
-- Used C.
+## Beyond Sentiment (Karasenko)
 
-# Additional Experience And Awards
+- Dec. 2023 - Empirische Evaluation zum Einsatz von KI für die Technologieakzeptanzmessung auf Basis von Online-Reviews.
+- Vergleich von 18 Natural Language Processing Modellen. Darunter BERT, GPT-3, RoBERTa, CNN, RF.
+- Im Review (Electronic Commerce Research and Applications).
 
-- Instructor (2003 - 2005): Taught two full-credit Computer Science courses.
-- Third Prize, Senior Design Projects: Awarded 3rd prize for a synchronized calendar project out of 100 projects.
-# Technologies
+# Zusätzliche Erfahrungen
 
-- Languages: C++, C, Java, Objective-C, C#.NET, SQL, JavaScript
-- Software: Visual Studio, Microsoft SQL Server, Eclipse, XCode, Interface Builder
+- Bayreuth AI Association (Mai 2023 - Heute): Bi-Weekly Meetings in denen aktuelle Entwicklungen in KI, Tools und Libraries vorgestellt, diskutiert und in kurzen Demos präsentiert werden.
+# Technologien
+
+- Programmiersprachen: Python, R, Javascript/HTML/CSS, Bash
+- Frameworks und Libraries: TensorFlow, Keras, Huggingface, Pandas, NumPy, Matplotlib, Scikit-learn, Django, Wagtail
+- Werkzeuge: Git, Docker, Linux, GitHub Actions

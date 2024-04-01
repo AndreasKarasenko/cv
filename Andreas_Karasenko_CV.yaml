@@ -3,19 +3,18 @@ cv:
   location: Bayreuth
   email: andreas.karasenko@googlemail.com
   phone: tel:+49-176-877-424-56
-  website: https://yourwebsite.com/
   social_networks:
     - network: LinkedIn
       username: andreas-karasenko-57163a212/
     - network: GitHub
       username: AndreasKarasenko
   sections:
-    summary:
-      - This is an example resume to showcase the capabilities of the open-source
-        LaTeX CV generator, [RenderCV](https://github.com/sinaatalay/rendercv). A
-        substantial part of the content is taken from [here](https://www.careercup.com/resume),
-        where a *clean and tidy CV* pattern is proposed by **Gayle L. McDowell**.
-    education:
+    Ausbildung:
+      - institution: Universität Bayreuth
+        area: Betriebswirtschaftslehre
+        degree: PhD
+        start_date: 2021-10
+        end_date: 2025-11
       - institution: Universität Bayreuth
         area: Betriebswirtschaftslehre
         degree: MS
@@ -30,103 +29,86 @@ cv:
         start_date: 2014-10
         end_date: 2018-09
         highlights:
-    experience:
+    Arbeitserfahrung:
       - company: Lehrstuhl für Marketing und Innovation
-        position: Wissenschaftlicher Mitarbeiter
-        location: Bayreuth, Deutschland
         start_date: 2021-10
         end_date: 
+        location: Bayreuth, Deutschland
+        position: Wissenschaftlicher Mitarbeiter
         highlights:
-          - Reduced time to render the user's buddy list by 75% by implementing a
-            prediction algorithm.
-          - Implemented iChat integration with OS X Spotlight Search by creating a
-            tool that extracts metadata from saved chat transcripts and provides metadata
-            to a system-wide search database.
-          - Redesigned chat file format and implemented backward compatibility for
-            search.
-      - company: Microsoft Corporation
-        position: Lead Student Ambassador
-        location: WA, USA
-        start_date: 2003-09
-        end_date: 2005-04
+          - Durchführung von Industrieprojekten an der Schnittstelle zwischen Marketing, KI und Programmierung.
+          - Anfertigen von wissenschaftlichen Artikeln und Konferenzbeiträgen.
+          - Betreuen von Abschlussarbeiten.
+      - company: Lehrstuhl für Serious Games
+        start_date: 2019-10
+        end_date: 2021-09
+        location: Bayreuth, Deutschland
+        position: Hilfswissenschaftler
         highlights:
-          - Promoted to Lead Student Ambassador in the Fall of 2004, supervised 10
-            - 15 Student Ambassadors.
-          - 'Created and taught a computer science course, CSE 099: Software Design
-            and Development.'
-      - company: University of Pennsylvania
-        position: Head Teaching Assistant
-        location: PA, USA
-        start_date: 2001-10
-        end_date: 2005-05
+          - Korrektur von Übungen und Klausuren
+          - Erstellen von Bash/Python Skripten zur Automatisierung von Punktevergabe und Plagiatserkennung
+    Industrieprojekte:
+      - name: BioTexFuture (Adidas)
+        start_date: "2021-10"
+        end_date: "2025-11"
         highlights:
-          - Implemented a user interface for the VS open file switcher (ctrl-tab)
-            and extended it to tool windows.
-          - Created a service to provide gradient across VS and VS add-ins. Optimized
-            service via caching.
-          - Programmer Productivity Research Center (Summers 2001, 2002)
-          - 'Built app to compute the similarity of all methods in a code base, reduced
-            time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$. '
-          - Created a test case generation tool that creates random XML docs from
-            XML Schema.
-      - company: Microsoft Corporation
-        position: Software Design Engineer, Intern
-        location: WA, USA
-        start_date: 2003-06
-        end_date: 2003-08
+          - Koordination und Projektmanagement von Qualitativen / Quantitativen Analysen im Bereich von Konsumentenverhalten und -präferenzen.
+          - Fullstack-Entwicklung einer Kollaborativen Webseite als zentrale Sammlung aller Studien und Experimente.
+          - Integration in ein Content Management System  und Planung eines Chat-Bots. 
+          - "Verwendete Technologien: Django, Wagtail, PostgreSQL, Docker, Git, CI/CD."
+      - name: Process Mining im E-Commerce (BF/M-Bayreuth)
+        start_date: "2023-04"
+        end_date: "2024-02"
         highlights:
-          - Promoted to Lead Student Ambassador in the Fall of 2004, supervised 10
-            - 15 Student Ambassadors.
-    publications:
-      - title: Magneto-Thermal Thin Shell Approximation for 3D Finite Element Analysis
-          of No-Insulation Coils
-        authors:
-          - Albert Smith
-          - Andreas Karasenko
-          - Jane Derry
-          - Harry Tom
-          - Anotherfirstname Andsurname
-        doi: 10.1109/TASC.2023.3340648
-        date: 2004-01
-    projects:
-      - name: Multi-User Drawing Tool
-        date: '2004'
+          - Planung und Durchführung von Forschungsprojekten zum Thema Process-Mining im E-Commerce.
+          - Planung und Durchführung themenspezifischer Veranstaltungen.
+          - Identifizierung von Nutzungspotentialen und praktische Anwendung auf Customer Journey Daten (Server Logs der Produktwebseite).
+          - "Verwendete Technologien: BupaR, PM4PY."
+      - name: Marketing Intelligence für KMU (ESF-VHB)
+        start_date: "2021-10"
+        end_date: "2022-12"
         highlights:
-          - Developed an electronic classroom where multiple users can view and simultaneously
-            draw on a "chalkboard" with each person's edits synchronized.
-          - Used C++ and MFC.
-      - name: Synchronized Calendar
-        start_date: 2003
-        end_date: 2004
+          - Identifizierung von Nutzungspotentialen für Kundenkarten(daten) in Baumärkten.
+          - Durchführung von RFM-/ und Co-Occurence Analysen.
+          - Entwicklung und offline Evaluation eines Empfehlungssystems.
+          - "Verwendete Technologien: R, Tensorflow, Keras, Pandas, Matplotlib."
+    Paperprojekte:
+      - name: Sentiment in Marketing (Karasenko)
+        date: "2024-06"
         highlights:
-          - Developed a desktop calendar with globally shared and synchronized calendars,
-            allowing users to schedule meetings with other users.
-          - Used C#.NET, SQL, and XML.
-      - name: Operating System
-        date: '2002'
+          - Method Paper zu Sentiment-Analyse im Marketing (Anwendungen, Modellierung, Evaluation, Interpretation).
+          - Erstellen von exemplarischen Quellcodes für alle notwendigen Schritte.
+          - To be submitted (Marketing ZFP)
+      - name: Measuring technology acceptance over time by online customer reviews based transfer learning (Baier, Karasenko, Rese)
+        date: "2024-06"
         highlights:
-          - Developed a UNIX-style OS with a scheduler, file system, text editor,
-            and calculator.
-          - Used C.
-    additional_experience_and_awards:
-      - label: Instructor (2003 - 2005)
-        details: Taught two full-credit Computer Science courses.
-      - label: Third Prize, Senior Design Projects
-        details: Awarded 3rd prize for a synchronized calendar project out of 100
-          projects.
-    technologies:
-      - label: Languages
-        details: C++, C, Java, Objective-C, C#.NET, SQL, JavaScript
-      - label: Software
-        details: Visual Studio, Microsoft SQL Server, Eclipse, XCode, Interface Builder
+          - Vergleich zwischen transfer learning und einer herkömmlichen Umfrage mit einem Strukturgleichungsmodel.
+          - Proof of Concept für den automatisierten Einsatz von KI zur Technologieakzeptanzmessung.
+          - To be submitted (Journal of Retailing and Consumer Services)
+      - name: Beyond Sentiment (Karasenko)
+        date: "2023-12"
+        highlights:
+          - Empirische Evaluation zum Einsatz von KI für die Technologieakzeptanzmessung auf Basis von Online-Reviews.
+          - Vergleich von 18 Natural Language Processing Modellen. Darunter BERT, GPT-3, RoBERTa, CNN, RF.
+          - Im Review (Electronic Commerce Research and Applications).
+    Zusätzliche Erfahrungen:
+      - label: Bayreuth AI Association (Mai 2023 - Heute)
+        details: Bi-Weekly Meetings in denen aktuelle Entwicklungen in KI, Tools und Libraries vorgestellt, diskutiert und in kurzen Demos präsentiert werden.
+    Technologien:
+      - label: Programmiersprachen
+        details: Python, R, Javascript/HTML/CSS, Bash
+      - label: Frameworks und Libraries
+        details: TensorFlow, Keras, Huggingface, Pandas, NumPy, Matplotlib, Scikit-learn, Django, Wagtail
+      - label: Werkzeuge
+        details: Git, Docker, Linux, GitHub Actions
 design:
   theme: classic
   font_size: 10pt
-  page_size: letterpaper
+  page_size: a4paper
   color: '#004f90'
   disable_page_numbering: false
   page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  show_last_updated_date: true
+  show_last_updated_date: false
   header_font_size: 30 pt
   text_alignment: justified
   margins:
